@@ -190,22 +190,29 @@ body {
   padding: 32px 0;
   max-width: 740px;
   min-height: 360px;
+  display: flex;
 }
 
 .the-end__first {
   padding: 4px 16px;
   background-color: #fff;
+  flex: 1;
 }
 
 .the-end__second {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .the-end__second-one {
   padding: 4px 16px;
   background-color: rgb(227, 192, 214);
+  flex: 1;
 }
 
 .the-end__second-two {
   padding: 4px 16px;
   background-color: rgb(192, 210, 227);
+  flex: 1;
 }
