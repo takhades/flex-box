@@ -67,15 +67,17 @@ body {
   padding: 0 16px;
   flex: 1;
 }
-
+/* order dùng để set thứ tự của items */
 .sidebar-one {
+  order: 2;
 }
 
 .sidebar-two {
+  order: 3;
 }
-
 .main-column {
   flex: 3;
+  order: 1;
 }
 
 /* Feature layout */
