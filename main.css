@@ -44,12 +44,15 @@ body {
 
 .form__row {
   padding: 8px 0;
+  display: flex;
 }
 
 .form__label {
+  min-width: 90px;
 }
 
 .form__input {
+  flex: 1;
 }
 
 /* Column layout */
