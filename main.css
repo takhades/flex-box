@@ -156,6 +156,9 @@ body {
   padding: 32px 0;
   height: 320px;
   background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .chart-layout__item {
@@ -164,6 +167,19 @@ body {
   text-align: center;
   height: var(--percent);
   background-color: #ef5122;
+  animation: growth ease-out 0.7s;
+}
+
+/* tạo keyframe cho animation cao dần của chart */
+@keyframes growth {
+  from {
+    opacity: 0;
+    height: calc(var(--percent)-50%);
+  }
+  to {
+    opacity: 1;
+    height: var(--percent);
+  }
 }
 
 /* End */
