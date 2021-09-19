@@ -170,7 +170,9 @@ body {
   animation: growth ease-out 0.7s;
 }
 
-/* tạo keyframe cho animation cao dần của chart */
+/*Note: 
+1. var(--percent) là biến local tự đặt ở file html
+2. tạo keyframe cho animation cao dần của chart */
 @keyframes growth {
   from {
     opacity: 0;
