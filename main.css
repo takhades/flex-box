@@ -18,6 +18,8 @@ body {
 .nav {
   min-height: 42px;
   background-color: #ef5122;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-list {
